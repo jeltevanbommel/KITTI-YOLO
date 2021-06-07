@@ -36,7 +36,6 @@ runs/*
 data/*
 !data/hyp.finetune.yaml
 !data/hyp.scratch.yaml
-!startingpoint.pt
 
 pycocotools/*
 results*.txt
@@ -61,6 +60,8 @@ VOC/
 darknet53.conv.74
 yolov3-tiny.conv.15
 !yolov5s.pt
+!startingpoint.pt
+
 
 # GitHub Python GitIgnore ----------------------------------------------------------------------------------------------
 # Byte-compiled / optimized / DLL files
